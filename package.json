@@ -1,14 +1,28 @@
 {
-    "name": "binutils64",
-    "version": "0.1.3",
-    "author": "Mihail Shumilov <mschumilow@gmail.com>",
-    "description": "A .NET-like BinaryReader and BinaryWriter with endianness support.",
-    "main": "./binutils.js",
+    "name": "binutils64-nibble",
+    "version": "0.1.0",
+    "author": "Niki Tester <niki@tester-dev.com>",
+    "description": "A .NET-like BinaryReader and BinaryWriter with support for reading High/Low nibbles",
+    "main": "index.js",
     "engines": {
         "node": ">=0.12"
     },
     "repository": {
-        "type" : "git",
-        "url" : "git://github.com/mihailShumilov/node-binutils.git"
-    }
+        "type": "git",
+        "url": "git://github.com/Niki-Tester/node-binutils64-nibble.git"
+    },
+    "scripts": {
+        "test": "test"
+    },
+    "keywords": [
+        "Binary",
+        "Reader",
+        "Writer",
+        "Nibble"
+    ],
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Niki-Tester/node-binutils64-nibble/issues"
+    },
+    "homepage": "https://github.com/Niki-Tester/node-binutils64-nibble#readme"
 }
